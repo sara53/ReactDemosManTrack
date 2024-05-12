@@ -1,6 +1,7 @@
 import "./App.css";
 import { MyNav } from "./components/MyNav";
 import MySlider from "./components/MySlider";
+import UseEffectComp from "./components/TestTopics/1-useEffect";
 import Login from "./components/TestTopics/Login";
 import { Test } from "./components/TestTopics/Test";
 import Counter from "./components/TestTopics/counter";
@@ -11,11 +12,11 @@ function App() {
 		console.log( "Welcome" )
 	}
 	return <>
-		<MyNav />
-		<MySlider />
+
 		<Products />
-		<Login />
-		{/* <Counter /> */}
+		<UseEffectComp />
+		{/* <Login /> */}
+
 	</>;
 }
 

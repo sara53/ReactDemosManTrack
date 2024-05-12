@@ -5,7 +5,7 @@ export function Products() {
 
     return (
         <div className='p-5'>
-            <h1 className='text-center mb-5 text-muted'>Our Products</h1>
+            <h1 className='text-center mb-5 text-muted'>Our Books</h1>
             <div className="container">
                 <button className='btn btn-dark mb-3'>Clear All</button>
                 <div className="row">
