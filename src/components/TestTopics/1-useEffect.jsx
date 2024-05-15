@@ -11,6 +11,9 @@ export default function UseEffectComp() {
 
     useEffect( () => {
 
+        setWelcome(
+            `Welcome ${count}`
+        )
         console.log( "first from useEffect" )
 
     }, [ count ] )
